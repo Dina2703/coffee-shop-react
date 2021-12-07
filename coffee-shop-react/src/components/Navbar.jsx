@@ -12,7 +12,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-          COFFEE_DOM <i className="fa fa-coffee fa-2x" />
+          <i className="fa fa-coffee fa-2x" />  COFFEE_DOM 
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
