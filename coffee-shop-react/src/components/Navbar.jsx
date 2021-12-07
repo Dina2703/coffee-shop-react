@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import {Button} from './Button'
+import {Button} from './Button';
+import '../styles/Navbar.css';
 
 
 
@@ -26,7 +27,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            <i className="fa fa-coffee fa-2x" /> COFFEE_DOM
+            C<i className="fa fa-coffee" />FFEE
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fa fa-times" : "fa fa-bars"} />

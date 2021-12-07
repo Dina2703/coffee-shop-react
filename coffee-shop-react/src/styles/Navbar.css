@@ -21,7 +21,6 @@
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -29,6 +28,9 @@
   align-items: center;
 }
 
+.navbar-logo i{
+  margin: 0 2px 9px 4px;
+}
 .fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;
