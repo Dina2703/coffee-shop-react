@@ -18,7 +18,7 @@ video {
   object-fit: contain;
 }
 
-.main-container  {
+.main-container > h1 {
   color: #fff;
   font-size: 100px;
   margin-top: -100px;
@@ -43,7 +43,7 @@ video {
   margin-left: 4px;
 }
 
-@media screen and(max-width: 960px) {
+@media screen and (max-width: 960px) {
   .main-container > h1 {
     font-size: 70px;
     margin-top: -150px;
