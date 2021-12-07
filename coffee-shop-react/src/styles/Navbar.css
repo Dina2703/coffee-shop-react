@@ -31,10 +31,7 @@
 .navbar-logo i{
   margin: 0 2px 9px 4px;
 }
-.fa-typo3 {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
-}
+
 
 .nav-menu {
   display: grid;

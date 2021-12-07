@@ -5,10 +5,10 @@ import "../styles/Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
-
-  const closeMobileMenu = () => setClick(false);
   const [button, setButton] = useState(true);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -69,7 +69,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN-IN</Button>}
+          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
     </>
